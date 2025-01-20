@@ -1,0 +1,14 @@
+$box-one:#5faee3; 
+$border-one:darken($box-one);
+
+$box-two:lightn($color-primary, 40%);
+$border-two:darken($box-two);
+
+$box-three:lighten($box-one, 60%); 
+$border-three:darken($box-three); 
+
+$box-four:lighten($box-one, 80%); 
+$border-four:darken($box-four); 
+
+$box-five:lighten($box-one, 100%); 
+$border-five:darken($box-five); 
