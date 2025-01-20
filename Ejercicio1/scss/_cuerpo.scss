@@ -18,6 +18,18 @@
     &-list-component{
         margin-left: 50px;
         color: white;
+      
+        transition: 0.6s transform ease-in-out;
+
+        &:hover{
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+
+        &:active{
+            color: $color-secundary;
+            font-weight: bold;
+        }
     }
 }
 
