@@ -1,18 +1,57 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |     background-color: $box-one;
- *   |                       ^^^^^^^^
- *   '
- *   scss\_styles.scss 8:23  @import
- *   scss\main.scss 1:9      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502      background-color: $box-one;\d\a   \2502                        ^^^^^^^^\a   \2575 \a   scss\\_styles.scss 8:23  @import\a   scss\\main.scss 1:9      root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: beige;
+}
+
+.container {
+  margin-left: 20px;
+  width: 20%;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  transition: 0.5s transform ease;
+}
+.box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.box1 {
+  background-color: #5faee3;
+  border: 1px solid rgb(25.170212766, 96.1861702128, 143.829787234);
+}
+
+.box2 {
+  background-color: rgb(138.4042553191, 195.9734042553, 234.5957446809);
+  border: 2px solid #5faee3;
+}
+
+.box3 {
+  background-color: rgb(181.8085106383, 217.9468085106, 242.1914893617);
+  border: 2px solid rgb(138.4042553191, 195.9734042553, 234.5957446809);
+}
+
+.box4 {
+  background-color: rgb(225.2127659574, 239.920212766, 249.7872340426);
+  border: 2px solid rgb(181.8085106383, 217.9468085106, 242.1914893617);
+}
+
+.box5 {
+  background-color: rgb(246.914893617, 250.9069148936, 253.585106383);
+  border: 2px solid rgb(203.5106382979, 228.9335106383, 245.9893617021);
+}
+
+/*# sourceMappingURL=main.css.map */
