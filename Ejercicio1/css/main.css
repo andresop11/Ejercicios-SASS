@@ -25,7 +25,7 @@
 }
 .nav-list-component:active {
   color: #f01945;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .cards {
